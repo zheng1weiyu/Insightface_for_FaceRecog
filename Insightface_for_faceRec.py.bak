@@ -249,7 +249,7 @@ if __name__ == "__main__":
     ### Function 1: Data from the image
     ### process the single image
     face_model = face_recognition()
-    frame = cv2.imread('./Datasets/test/test2.png')
+    frame = cv2.imread('./Datasets/test/test1.png')
     match_info = face_model.face_match(frame)
     print(match_info)
     drawImg(frame, match_info)
